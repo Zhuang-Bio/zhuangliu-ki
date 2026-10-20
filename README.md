@@ -1,5 +1,7 @@
 # Zhuang Liu — academic profile
 
+Website: [https://zhuang-bio.github.io/zhuangliu-ki/](https://zhuang-bio.github.io/zhuangliu-ki/)
+
 A minimal static website featuring education and publications. No dependencies or build step.
 
 ## Local development
