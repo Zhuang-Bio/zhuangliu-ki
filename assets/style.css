@@ -3,3 +3,5 @@
 .simple-intro{padding:75px 64px 30px}.simple-intro h1{font-size:54px}.education{padding-top:40px;padding-bottom:45px}.education h4{margin:5px 0;font-size:18px;font-weight:500}.education .timeline p{color:var(--muted);font-size:14px;margin:5px 0}.publications{margin-bottom:45px}@media(max-width:620px){.simple-intro{padding:45px 22px 20px}.simple-intro h1{font-size:42px}}
 
 .profile-links{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-top:24px}
+
+.profile-bio{max-width:720px;color:var(--muted);font-size:16px;line-height:1.8}
