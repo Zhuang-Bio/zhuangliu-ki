@@ -5,3 +5,5 @@
 .profile-links{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-top:24px}
 
 .profile-bio{max-width:720px;color:var(--muted);font-size:16px;line-height:1.8}
+
+.simple-intro{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:48px;align-items:center}.profile-copy{min-width:0}.profile-photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:12px;border:1px solid var(--line)}@media(max-width:900px){.simple-intro{grid-template-columns:minmax(0,1fr) 200px;gap:28px}}@media(max-width:620px){.simple-intro{grid-template-columns:1fr;gap:28px}.profile-photo{grid-row:1;width:180px;justify-self:start}}
