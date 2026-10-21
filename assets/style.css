@@ -6,4 +6,4 @@
 
 .profile-bio{max-width:720px;color:var(--muted);font-size:16px;line-height:1.8}
 
-.simple-intro{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:48px;align-items:center}.profile-copy{min-width:0}.profile-photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:12px;border:1px solid var(--line)}@media(max-width:900px){.simple-intro{grid-template-columns:minmax(0,1fr) 200px;gap:28px}}@media(max-width:620px){.simple-intro{grid-template-columns:1fr;gap:28px}.profile-photo{grid-row:1;width:180px;justify-self:start}}
+.simple-intro{display:flex;flex-direction:column;align-items:flex-start;gap:24px}.profile-copy{min-width:0;width:100%}.profile-photo{display:block;width:120px;height:150px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}@media(max-width:620px){.profile-photo{width:104px;height:130px}}
